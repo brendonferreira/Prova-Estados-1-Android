@@ -14,7 +14,7 @@ public class Main {
 
         ServerSocket serverSocket = new ServerSocket(port);
 
-        System.out.println("Server socket initializated...");
+        System.out.println("Server socket initialized...");
         while( open ) {
             System.out.println("Waiting for connections in port "+port);
             Socket socket = serverSocket.accept();
